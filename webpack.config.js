@@ -17,6 +17,9 @@ module.exports = {
   },
   mode: environment,
   devtool: "inline-source-map",
+  devServer: {
+    historyApiFallback: true,
+  },
   optimization: {
     concatenateModules: false,
   },
