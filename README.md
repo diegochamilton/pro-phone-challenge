@@ -1,6 +1,6 @@
 # Client
 
-To run the client, install the packages in the client directory and run:
+To run the client, install the packages in the directory and run:
 
 `npm start`
 
