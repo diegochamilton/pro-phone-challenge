@@ -25,3 +25,10 @@
 .error {
   font-size: 18px;
 }
+
+@media screen and (max-width: $bp-mobile) {
+  .photo {
+    width: 140px;
+    height: 140px;
+  }
+}
