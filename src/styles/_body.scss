@@ -1,0 +1,31 @@
+@import "./variables";
+
+html,
+body,
+#root {
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+body {
+  @include horizontal-gradient(#181818, #3c3c3c);
+  color: #fffffd;
+  font-family: $primary-font, -apple-system, system-ui, sans-serif;
+}
+
+input {
+  border-radius: 20px;
+  border: 1px solid black;
+  height: 30px;
+  width: 300px;
+  font-size: 18px;
+  outline: none;
+  text-align: center;
+  margin-bottom: $l-space;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
